@@ -1,0 +1,99 @@
+body {
+  background-color: #fcfafa;
+  box-sizing: border-box;
+  margin: 0;
+  width: 86rem;
+  height: 39rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2e2c2c7a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.container-1 {
+  box-shadow: 3px 2px 4px rgb(143, 142, 142);
+}
+
+.container-1 > div,
+.task {
+  min-width: 25rem;
+  max-width: 34rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d6d4d4;
+}
+
+.container-1 .container-2 {
+  background-color: #f3f1f1;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-1 .new-list {
+  background-color: #d4d3d3;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-1 .container-2 h1 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #706c6c;
+}
+
+.container-1 .display,
+.container-1 .new-list {
+  background-color: rgb(255, 255, 255);
+}
+
+.container-1 .new-list,
+.task {
+  padding: 1.25rem;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-1 .display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input,
+input:focus,
+textarea:focus,
+select:focus {
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  line-height: 1.75rem;
+  margin-right: 10px;
+}
+
+.display input {
+  color: rgb(14, 14, 14);
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.container-1 .clear {
+  text-align: center;
+  color: rgb(68, 68, 68);
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  background-color: #f3f1f1;
+}
